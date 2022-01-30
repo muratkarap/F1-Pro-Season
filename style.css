@@ -1,0 +1,40 @@
+* {margin: 0px;padding: 0px;}
+.header {width: 100%;height: 75px;background-color: red;position: fixed;}
+.f1__header--logo {margin-left: 20px;height: 75px;margin-right: 20px;
+    width: 80px;
+
+}
+.header__ul--li {list-style-type: none;}
+.header__ul--li a {
+    
+    font-family:  'Titillium Web', sans-serif;
+     font-size: 15;margin-left: 10px;margin-right: 20px;
+    color: azure;text-decoration: none;
+
+}
+
+.header__ul--li a:hover {text-decoration: underline;color:gold;}
+.header__ul--left {display: flex; justify-content:flex-start;align-items: center;}
+.fia_logo {width: 80px;}   
+
+.section1  {
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-attachment: fixed;background-image: url(./images/mercedes1.jpg);}
+    .section1__image1 {width: 400px;position: relative;
+    top: 50px;left: 500px;
+    }
+.section1_p {padding: 5px; color: yellow; font-family: 'Titillium Web', sans-serif; font-size: 35px;}
+.section1__div1 {border: 5px solid rgb(0, 255, 213); width: 500px;position: relative;top: 100px;left: 940px;
+border-radius: 25px;
+}
+.section1__div2--ul {color: rgb(255, 0, 212);font-size: 35px;font-family: 'Titillium Web', sans-serif;
+    position: relative;top: 200px;left: 80px;}
+
+    .section2 {width: 100%;
+        height: 120vh;
+        background-size: cover;
+        background-attachment: fixed;background-image: url(./images/f1_pist.jpg);}
+        .section2__img1 {width: 600px;position: relative;top: 160px;left: 700px;}
+        .section2__img2 {width: 500px;position: relative;top: 100px;right: 500px;}
