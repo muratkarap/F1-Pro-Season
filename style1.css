@@ -1,42 +1,99 @@
-* {margin: 0px;padding: 0px;}
-.header {width: 100%;height: 75px;background-color: red;position: fixed;}
-.f1__header--logo {margin-left: 20px;height: 75px;margin-right: 20px;
-    width: 80px;
-
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.header__ul--li {list-style-type: none;}
+
+/* HEADER */
+
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: red;
+  position: fixed; 
+  top: 0;
+  z-index: 100;
+}
+.header__ul--left {
+  width: 100%;
+  height: 100%;
+  display: flex; 
+  justify-content:flex-start;
+  align-items: center;
+}
+.f1__header--logo {
+  margin-left: 20px;
+  height: 75px;
+  margin-right: 20px;
+}
+.header__ul--li {
+  list-style-type: none;
+}
 .header__ul--li a {
-    
-    font-family:  'Titillium Web', sans-serif;
-     font-size: 15;margin-left: 10px;margin-right: 20px;
-    color: azure;text-decoration: none;
-
+  font-family:  'Titillium Web', sans-serif;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 20px;
+  color: azure;
+  text-decoration: none;
+}
+.header__ul--li a:hover {
+  text-decoration: underline;
+  color:gold;
 }
 
-.header__ul--li a:hover {text-decoration: underline;color:gold;}
-.header__ul--left {display: flex; justify-content:flex-start;align-items: center;}
-.fia_logo {width: 80px;}   
+/* SECTION1 */
 
 .section1  {
+  width: 100%;
+  height: 120vh;
+  margin-top: 75px;
+  padding-top: 100px;
+
+  background-image: url(./images/mercedes1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section1__div1 {
+  border: 5px solid rgb(0, 255, 213); 
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+.section1_p {
+  padding: 5px; 
+  color: yellow; 
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 35px;
+}
+.section1__div2--ul {
+  color: rgb(255, 0, 212);
+  font-size: 35px;
+  font-family: 'Titillium Web', sans-serif;
+  margin-left: 50px;
+  margin-top: 1px;
+}
+
+/* SECTION2 */
+
+.section2 {
     width: 100%;
     height: 120vh;
-    
-    background-attachment: fixed;background-image: url(./images/mercedes1.jpg);}
-
-    .section1__image1 {width: 400px;position: relative;background-size: cover;
-    top: 50px;left: 300px;
-    }
-.section1_p {padding: 5px; color: yellow; font-family: 'Titillium Web', sans-serif; font-size: 35px;}
-.section1__div1 {border: 5px solid rgb(0, 255, 213); width: 500px;position: relative;top: 100px;left: 640px;
-border-radius: 25px;
+    padding-top: 100px;
+   
+    background-image: url(./images/f1_pist.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.section1__div2--ul {color: rgb(255, 0, 212);font-size: 35px;font-family: 'Titillium Web', sans-serif;
-    position: relative;top: 150px;left: 80px;}
-
-    .section2 {width: 100%;
-        height: 120vh;
-        background-size: cover;
-        background-attachment: fixed;background-image: url(./images/f1_pist.jpg);}
-        
-        .section2__img1 {width: 600px;position: relative;top: 160px;left: 600px;height: 350px;}
-        .section2__img2 {width: 500px;position: relative;top: 160px; right: 550px;height: 350px;}
+.section2 div {
+  text-align: center;
+}
+.section2__img1 {
+  width: 600px;
+  height: 350px;
+}
+.section2__img2 {
+  width: 500px;
+  height: 350px;
+}
